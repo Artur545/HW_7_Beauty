@@ -1,0 +1,351 @@
+:root {
+    --gray: #EFEFEF;
+    --accent: #F13C6E;
+    --font: 'Roboto', sans-serif;
+    --regular: 400;
+    --medium: 500;
+    --bold: 700;
+    --dark: #333;
+    --828282: #828282;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14;
+    font-family: var(--font);
+    border: none;
+    background: transparent;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.faq {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--gray);
+    color: var(--dark);
+    font-size: 14px;
+}
+
+ul.faq li {
+    padding: 15px 10px;
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px var(--gray) solid;
+    padding: 20px 0px;
+}
+
+.beauty {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.beauty p {
+    font-size: 36px;
+    letter-spacing: 3.6px;
+    color: var(--accent);
+    font-weight: var(--bold);
+    line-height: normal;
+}
+
+div.beauty img {
+    width: 80px;
+    height: 80px;
+}
+
+.callBack {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+div.callBack a {
+    color: black;
+}
+
+.callButton {
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: var(--accent);
+    padding: 8px 40px;
+    font-size: 14px;
+}
+
+.servicesList {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-size: 16px;
+}
+
+ul.servicesList li {
+    padding: 30px 15px;
+}
+
+section.promotion {
+    display: flex;
+    height: 480px;
+    background-image: url(../images/Rectangle_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    background-position: center;
+    
+    color: white;
+    justify-content: center;
+    text-wrap:wrap;
+    gap: 40px;
+}
+
+.chair {
+    font-size: 48px;
+    font-weight:var(--bold);
+    width: 100%;
+
+}
+
+.moreButton {
+    font-size: 14px;
+    padding: 8px 40px;
+    border-radius: 40px;
+    border: 2px white solid;
+    max-width: 30px;
+    letter-spacing: 0.7px;
+    text-align: center;
+}
+
+.ch {
+    width: 60%;
+    margin: 0% 20%;
+}
+
+.promoDscr {
+    width: 308px;
+}
+
+.spc-offrs {
+    background-color: var(--gray);
+}
+
+.spec {
+    font-size: 24px;
+    font-weight:var(--bold);
+    width: 50%;
+    margin: 0% 30% 0% 20%;
+}
+
+section.spc-offrs ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+section.spc-offrs img {
+    width: 125px;
+    height: 166px;
+}
+
+section.spc-offrs b {
+    font-size: 21px;
+    font-weight:var(--medium);
+    letter-spacing: 1.05px;
+}
+
+.offer {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 25px;
+    gap: 20px;
+}
+
+.buyBtton {
+    text-align: center;
+    color: white;
+    background-color: var(--accent);
+    border: 2px var(--accent) solid;
+    border-radius: 40px;
+    padding: 8px 40px;
+}
+
+.bonuses {
+    background-color: var(--gray);
+    justify-content: center;
+    margin-top: 100px;
+}
+
+ul.bonuses li:nth-child(1) p:nth-child(1) {
+    font-size: 18px;
+    font-weight:var(--bold);
+}
+
+ul.bonuses li:nth-child(1) {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--accent);
+    padding: 35px 45px 35px 40px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+ul.bonuses li:nth-child(1) img {
+    width: 140px;
+    height: 140px;
+}
+
+ul.bonuses li:nth-child(1) div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+ul.bonuses li:nth-child(1) p:nth-child(2) {
+    width: 150px;
+}
+
+#mail {
+    border: 2px var(--accent) solid;
+    border-radius: 40px;
+    padding: 10px 60px 10px 25px;
+    background-color: white;
+}
+
+ul.bonuses li:nth-child(2) img {
+    width: 200px;
+    height: 100px;
+}
+
+ul.bonuses li:nth-child(2) p:nth-child(1) {
+    font-size: 18px;
+    font-weight:var(--bold);
+}
+
+ul.bonuses li:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--accent);
+    padding: 35px 45px 35px 40px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+ul.bonuses li:nth-child(2) div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+ul.bonuses li:nth-child(2) p:nth-child(2) {
+    width: 150px;
+}
+
+main section.spc-offrs ul.bonuses {
+    display: flex;
+    gap: 43px;
+}
+
+#map {
+    border: 2px white solid;
+    border-radius: 40px;
+    padding: 10px 30px 10px 30px;
+    background-color: var(--accent);
+    color: white;
+}
+
+section.impuls {
+    margin-top: 60px;
+    background-color: var(--gray);
+    width: 100%;
+    
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0px 20% 80px 20%;
+    justify-content: center;
+}
+
+.imge {
+    padding: 35px 60px;
+    background-color: white;
+}
+
+.brdrRght {
+    border-right: 1px var(--gray) solid;
+}
+
+.brdrBttm {
+    border-bottom: 1px var(--gray) solid;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    border-bottom: 1px var(--gray) solid;
+}
+
+.categories p {
+    font-size: 16px;
+    font-weight: var(--medium);
+    line-height: 22.5px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    width: 255px;
+    border-bottom: 1px var(--gray) solid;
+}
+
+.categories ul {
+    padding-top: 25px;
+    color: var(--828282);
+    line-height: 28px;
+    font-size: 12px;
+    padding-bottom: 60px;
+}
+
+section.logo.footer {
+    gap: 200px;
+}
+
+section.logo.footer img {
+    width: 45px;
+    height: 45px;
+}
+
+section.c {
+    display: flex;
+    font-size: 12px;
+    color: var(--828282);
+    line-height: normal;
+    justify-content: space-evenly;
+    gap: 150px;
+    background-color: var(--gray);
+}
+
+section.c p {
+    padding: 25px 0px;
+}
+
+.span {
+    padding: 80px 10%;
+    background-color: var(--gray);
+}
